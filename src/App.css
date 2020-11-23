@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+.question {
+  height: 50px;
+  width: 50%;
+}
+
+.choices {
+  text-align: center;
+  margin-left: 35%;
+  font-size: 20px;
+  padding: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+  height: 24px;
+  width: 30%;
+  background-color: white;
+  color: rgb(22, 103, 170);
+  font-weight: normal;
+}
+.choices:hover {
+  background-color: rgb(98, 236, 190);
+}
+.choices:active {
+  background-color: rgb(255, 238, 181);
+}
+
+.finish-btn,
+.next-btn,
+.reset-btn,
+.start-exam {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.next-btn:hover {
+  background-color: rgb(1, 105, 27);
+}
+.finish-btn:hover {
+  background-color: rgb(3, 1, 117);
+}
+.reset-btn:hover {
+  background-color: rgb(109, 24, 109);
+}
+.start-exam:hover {
+  background-color: rgb(141, 86, 46);
+}
+
+button:disabled,
+button:disabled:hover {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.enter-name {
+  text-align: center;
+  margin-top: 50px;
+}
+.green {
+  background-color: #4caf50; /* Green */
+}
+.blue {
+  background-color: #1453c7; /* Green */
+}
+.purple {
+  background-color: rgb(134, 59, 134);
+}
+.brown {
+  background-color: rgb(98, 92, 73);
+}
+.input {
+  font-size: 20px;
+  height: 30px;
+  width: 300px;
+  margin: 10px;
+}
